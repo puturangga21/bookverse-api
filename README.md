@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/puturangga21/bookverse-api/image?font=Inter&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Signal&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-<p id="description">The REST API was created using Express.js a javascript backend framework. It is used to manage a book library named BookVerse and stored in a MongoDB database.</p>
+<p id="description">The REST API was created using Express.js a javascript backend framework. It is used to manage a book library named BookVerse and stored in a MongoDB database. By default it will use the database I have provided, but you can change it in the .env section.</p>
 
 <p align="center"><img src="https://img.shields.io/badge/express-4.18.2-yellow" alt="shields"><img src="https://img.shields.io/badge/mongoose-8.0.3-green" alt="shields"></p>
 
