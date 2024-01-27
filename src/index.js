@@ -11,8 +11,12 @@ const PORT = 5000;
 app.use(express.json());
 app.use(cors());
 
-app.get('/api', (req, res) => {
-  res.send('Selamat datang di API BookVerse');
+app.get('/', (req, res) => {
+  res
+    .status(200)
+    .send(
+      'Selamat datang di API BookVerse, gunakan endpoint /api/book untuk melanjutkan 💓'
+    );
 });
 
 app.use('/api/book', bookController);
